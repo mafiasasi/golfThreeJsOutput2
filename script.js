@@ -33,7 +33,7 @@ loadingManager.onProgress = function (url, itemsLoaded, itemsTotal) {
     (itemsLoaded / itemsTotal) * 400 + 4 + "px";
   document.querySelector(".loading_ball").style.marginLeft =
     (itemsLoaded / itemsTotal) * 400 - 24 + "px";
-  if (itemsLoaded > 4) {
+  if (itemsLoaded > 7) {
     document.querySelector(".loading_text").innerHTML = "Almost there...";
   }
 };
